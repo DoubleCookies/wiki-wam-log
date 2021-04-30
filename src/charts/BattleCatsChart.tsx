@@ -117,11 +117,11 @@ battleCatsData.push({ key: '27.09.2020', WAM: 62.3627});
 
 function BattleCatsChart() {
   return (
-      <AreaChart width={800} height={400} data={battleCatsData}>
+      <AreaChart width={950} height={420} data={battleCatsData}>
         <Area type="monotone" dataKey="WAM" stroke="transparent" fillOpacity={1} fill="orange" />
-        <XAxis tick={{fontSize: 14}} dataKey="key" interval="preserveStartEnd" tickSize={10} /><
-        YAxis domain={[40, 100]} tick={{fontSize: 14}} />
-        <Tooltip />
+        <XAxis tick={{fontSize: 14}} dataKey="key" interval="preserveStartEnd" tickSize={10} />
+        <YAxis domain={[40, 100]} tick={{fontSize: 14}} />
+        <Tooltip itemStyle={{color: "darkblue"}} />
       </AreaChart>
   );
 }

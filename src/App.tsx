@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import githubIcon from './img/GitHub-Mark-32px.png';
 import BattleCatsChart from "./charts/BattleCatsChart";
+import UndertaleChart from "./charts/UndertaleChart";
+import GeometryDashChart from "./charts/GeometryDashChart";
+import StevenUniverseChart from "./charts/StevenUniverseChart";
 
 function App() {
   return (
@@ -19,12 +22,18 @@ function App() {
           С помощью специальных скриптов можно было сохранять у себя значения рейтинга, что и позволило построить графики.
         </div>
         <div className="graph">
-          <div>*Графики*</div>
+          <div>Undertale вики</div>
+          <UndertaleChart />
+          <div>Geometry Dash вики</div>
+          <GeometryDashChart />
+          <div>Steven Universe вики</div>
+          <StevenUniverseChart />
+          <div>The Battle Cats вики</div>
           <BattleCatsChart />
         </div>
       </main>
       <footer className="footer-block">
-        <div className="footer-font">
+        <div>
           <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} width="32px" height="32px" alt={"githubIcon"} /></a>
         </div>
