@@ -35,10 +35,14 @@
   border-top: 5px solid #EAC55B;
 }
 
-.footer-font {
+.footer-block > * {
   margin-top: 10px;
+}
+
+.footer-font {
   color: #504a4a;
   font-size: 14px;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }

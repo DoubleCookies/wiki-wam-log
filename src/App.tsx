@@ -1,14 +1,9 @@
 import React from 'react';
 import './App.css';
 import githubIcon from './img/GitHub-Mark-32px.png';
-import {AreaChart, Area, XAxis, YAxis, Tooltip} from 'recharts';
+import BattleCatsChart from "./charts/BattleCatsChart";
 
 function App() {
-  const data: {key: string, WAM: number}[] = [];
-  data.push({key:'1.01.2021', WAM: 97.666});
-  data.push({key:'2.01.2021', WAM: 92.666});
-  data.push({key:'3.01.2021', WAM: 99.666});
-
   return (
     <div className="app">
       <header className="app-header">
@@ -25,12 +20,7 @@ function App() {
         </div>
         <div className="graph">
           <div>*Графики*</div>
-          <AreaChart width={800} height={400} data={data}>
-            <Area type="monotone" dataKey="WAM" stroke="#8884d8" fillOpacity={1} fill="orange" />
-            <XAxis dataKey="key" />
-            <YAxis domain={[50, 100]} />
-            <Tooltip />
-          </AreaChart>
+          <BattleCatsChart />
         </div>
       </main>
       <footer className="footer-block">
