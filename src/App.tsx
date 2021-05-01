@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import githubIcon from './img/GitHub-Mark-32px.png';
 import BattleCatsChart from "./charts/BattleCatsChart";
 import UndertaleChart from "./charts/UndertaleChart";
 import GeometryDashChart from "./charts/GeometryDashChart";
@@ -21,25 +20,19 @@ function App() {
           после чего составлялся рейтинг (который обновлялся каждый день).<br/>
           С помощью специальных скриптов можно было сохранять у себя значения рейтинга, что и позволило построить графики.
         </div>
-        <div className="graph">
-          <div>Undertale вики</div>
+        <div className="charts-block">
+          <div className="charts-names">Undertale вики</div>
           <UndertaleChart />
-          <div>Geometry Dash вики</div>
+          <div className="charts-names">Geometry Dash вики</div>
           <GeometryDashChart />
-          <div>Steven Universe вики</div>
+          <div className="charts-names">Steven Universe вики</div>
           <StevenUniverseChart />
-          <div>The Battle Cats вики</div>
+          <div className="charts-names">The Battle Cats вики</div>
           <BattleCatsChart />
         </div>
       </main>
       <footer className="footer-block">
-        <div>
-          <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer">
-            <img src={githubIcon} width="32px" height="32px" alt={"githubIcon"} /></a>
-        </div>
-        <div className="footer-font">
-          2021 <span role="img" aria-label="cookieEmoji">🍪</span>
-        </div>
+        <div>2021 <span role="img" aria-label="cookieEmoji">🍪</span></div>
       </footer>
     </div>
   );
