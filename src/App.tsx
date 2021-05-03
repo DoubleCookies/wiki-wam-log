@@ -9,17 +9,17 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <p>
-          Wiki WAM Log ༼ つ ◕_◕ ༽つ
-        </p>
-      </header>
-      <main className="main-content">
-        <div className="main-text">
+        <div className="left-title">
+          Wiki WAM Log<br/>༼ つ ◕_◕ ༽つ
+        </div>
+        <div className="right-title">
           WAM (Wiki Activity Monitor) — рейтинг крупнейших википроектов на FANDOM'е.
           Каждой вики на основе различных (и неизвестных) параметров проставлялся балл от 0 до 100 (больше — лучше),
           после чего составлялся рейтинг (который обновлялся каждый день).<br/>
           С помощью специальных скриптов можно было сохранять у себя значения рейтинга, что и позволило построить графики.
         </div>
+      </header>
+      <main className="main-content">
         <div className="charts-block">
           <div className="charts-names">Undertale вики</div>
           <UndertaleChart />
