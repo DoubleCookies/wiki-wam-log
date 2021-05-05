@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wiki-wam-log/static/css/main.6606bd58.chunk.css",
-    "main.js": "/wiki-wam-log/static/js/main.92439a1c.chunk.js",
-    "main.js.map": "/wiki-wam-log/static/js/main.92439a1c.chunk.js.map",
+    "main.css": "/wiki-wam-log/static/css/main.da04d20d.chunk.css",
+    "main.js": "/wiki-wam-log/static/js/main.a8f8a205.chunk.js",
+    "main.js.map": "/wiki-wam-log/static/js/main.a8f8a205.chunk.js.map",
     "runtime-main.js": "/wiki-wam-log/static/js/runtime-main.d641350d.js",
     "runtime-main.js.map": "/wiki-wam-log/static/js/runtime-main.d641350d.js.map",
-    "static/js/2.a0b1c188.chunk.js": "/wiki-wam-log/static/js/2.a0b1c188.chunk.js",
-    "static/js/2.a0b1c188.chunk.js.map": "/wiki-wam-log/static/js/2.a0b1c188.chunk.js.map",
+    "static/js/2.aede32dd.chunk.js": "/wiki-wam-log/static/js/2.aede32dd.chunk.js",
+    "static/js/2.aede32dd.chunk.js.map": "/wiki-wam-log/static/js/2.aede32dd.chunk.js.map",
     "static/js/3.6d462072.chunk.js": "/wiki-wam-log/static/js/3.6d462072.chunk.js",
     "static/js/3.6d462072.chunk.js.map": "/wiki-wam-log/static/js/3.6d462072.chunk.js.map",
     "index.html": "/wiki-wam-log/index.html",
-    "static/css/main.6606bd58.chunk.css.map": "/wiki-wam-log/static/css/main.6606bd58.chunk.css.map",
-    "static/js/2.a0b1c188.chunk.js.LICENSE.txt": "/wiki-wam-log/static/js/2.a0b1c188.chunk.js.LICENSE.txt"
+    "static/css/main.da04d20d.chunk.css.map": "/wiki-wam-log/static/css/main.da04d20d.chunk.css.map",
+    "static/js/2.aede32dd.chunk.js.LICENSE.txt": "/wiki-wam-log/static/js/2.aede32dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d641350d.js",
-    "static/js/2.a0b1c188.chunk.js",
-    "static/css/main.6606bd58.chunk.css",
-    "static/js/main.92439a1c.chunk.js"
+    "static/js/2.aede32dd.chunk.js",
+    "static/css/main.da04d20d.chunk.css",
+    "static/js/main.a8f8a205.chunk.js"
   ]
 }
