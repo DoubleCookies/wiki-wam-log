@@ -1,7 +1,6 @@
-import {Area, AreaChart, Tooltip, XAxis, YAxis} from "recharts";
+import { Area, AreaChart, Tooltip, XAxis, YAxis } from "recharts";
 import React from "react";
 import stevenUniverseData from "./data/StevenUniverseData";
-
 
 function StevenUniverseChart() {
   return (

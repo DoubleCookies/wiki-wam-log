@@ -1,4 +1,4 @@
-import {Area, AreaChart, Tooltip, XAxis, YAxis} from "recharts";
+import { Area, AreaChart, Tooltip, XAxis, YAxis } from "recharts";
 import React from "react";
 import geometryDashData from "./data/GeometryDashData";
 
