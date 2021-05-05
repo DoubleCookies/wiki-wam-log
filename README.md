@@ -5,7 +5,7 @@ This is small project for demonstration WAM score for some wikis I edited in 201
 WAM score ranges from 0 to 100 (higher - better) and represents different wiki metrics (exact combination of them is unknown).
 In 2021 WAM was removed from FANDOM wikis... and I guess it's OK.
 
-Created with [create-react-app](https://github.com/facebook/create-react-app).
+Created with [create-react-app](https://github.com/facebook/create-react-app) and [recharts](https://recharts.org).
 
 ## Launch
 In root folder you should type
