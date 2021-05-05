@@ -15,7 +15,7 @@ function UndertaleChart() {
         <Area type="monotone" dataKey="WAM" stroke="#5c2169" activeDot={{ stroke: 'black'}} fillOpacity={1} fill="url(#wam)" />
         <XAxis tick={{fontSize: 14}} dataKey="key" interval="preserveStartEnd" tickSize={10} />
         <YAxis domain={[40, 100]} tick={{fontSize: 14}} />
-        <Tooltip itemStyle={{color: "#78007a"}} separator={": "} />
+        <Tooltip itemStyle={{color: "#78007a", fontWeight: "bold"}} separator={": "} />
       </AreaChart>
   );
 }
