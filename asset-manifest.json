@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wiki-wam-log/static/css/main.50935edb.chunk.css",
+    "main.css": "/wiki-wam-log/static/css/main.ce1a8bb6.chunk.css",
     "main.js": "/wiki-wam-log/static/js/main.149a8c90.chunk.js",
     "main.js.map": "/wiki-wam-log/static/js/main.149a8c90.chunk.js.map",
     "runtime-main.js": "/wiki-wam-log/static/js/runtime-main.1dcb94da.js",
@@ -10,13 +10,13 @@
     "static/js/3.90d0cf4f.chunk.js": "/wiki-wam-log/static/js/3.90d0cf4f.chunk.js",
     "static/js/3.90d0cf4f.chunk.js.map": "/wiki-wam-log/static/js/3.90d0cf4f.chunk.js.map",
     "index.html": "/wiki-wam-log/index.html",
-    "static/css/main.50935edb.chunk.css.map": "/wiki-wam-log/static/css/main.50935edb.chunk.css.map",
+    "static/css/main.ce1a8bb6.chunk.css.map": "/wiki-wam-log/static/css/main.ce1a8bb6.chunk.css.map",
     "static/js/2.c85980a7.chunk.js.LICENSE.txt": "/wiki-wam-log/static/js/2.c85980a7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1dcb94da.js",
     "static/js/2.c85980a7.chunk.js",
-    "static/css/main.50935edb.chunk.css",
+    "static/css/main.ce1a8bb6.chunk.css",
     "static/js/main.149a8c90.chunk.js"
   ]
 }
