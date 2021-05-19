@@ -1,29 +1,39 @@
 .app {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     min-width: 1000px;
+    min-height: 100vh;
+
+    text-align: center;
 }
 
 .app-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background-color: #ffdb91;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    background-color: #ffdb91;
+
     color: black;
 }
 
 .left-title {
-    font-family: 'Balsamiq Sans', sans-serif;
-    font-size: calc(14px + 3vmin);
     flex-basis: 25%;
     min-width: 280px;
+
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: calc(14px + 3vmin);
 }
 
 .right-title {
-    font-size: calc(12px + 1vmin);
     flex-basis: 65%;
+
     margin-left: 20px;
+
+    font-size: calc(12px + 1vmin);
     text-align: justify;
 }
 
@@ -32,11 +42,13 @@
     flex-direction: column;
     align-items: center;
     max-width: 1000px;
+
     margin: auto;
 }
 
 .main-text {
     margin-top: 10px;
+
     font-size: calc(10px + 1vmin);
 }
 
@@ -46,17 +58,19 @@
 }
 
 .charts-names {
+    margin-top: 20px;
+
     font-family: 'Balsamiq Sans', sans-serif;
     font-size: calc(10px + 2vmin);
-    margin-top: 20px;
 }
 
 .footer-block {
-    font-family: 'Balsamiq Sans', sans-serif;
+    margin-top: auto;
     border-top: 2px solid #f5e5bc;
-    margin-top: 16px;
-    color: #504a4a;
-    font-size: 14px;
     padding-bottom: 12px;
-    padding-top: 16px;
+    padding-top: 12px;
+
+    color: #504a4a;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 14px;
 }
