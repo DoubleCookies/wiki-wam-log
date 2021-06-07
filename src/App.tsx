@@ -4,8 +4,20 @@ import BattleCatsChart from "./charts/BattleCatsChart";
 import UndertaleChart from "./charts/UndertaleChart";
 import GeometryDashChart from "./charts/GeometryDashChart";
 import StevenUniverseChart from "./charts/StevenUniverseChart";
+import { useTranslation } from "react-i18next";
+import i18n from "./i18n";
 
 function App() {
+  const { t } = useTranslation(['translation']);
+  const changeLanguage = () => {
+    console.log('inside!')
+    let lng = 'en';
+    if (i18n.language === 'en') {
+      lng = 'ru';
+    }
+    i18n.changeLanguage(lng).then();
+  }
+
   return (
       <div className="app">
         <header className="app-header">
@@ -13,22 +25,26 @@ function App() {
             Wiki WAM Log<br/>༼ つ ◕_◕ ༽つ
           </div>
           <div className="right-title">
-            WAM (Wiki Activity Monitor) — рейтинг крупнейших википроектов на FANDOM'е.
-            Каждой вики на основе различных (и неизвестных) параметров проставлялся балл от 0 до 100 (больше — лучше),
-            после чего составлялся рейтинг (который обновлялся каждый день).<br/>
-            С помощью специальных скриптов можно было сохранять у себя значения рейтинга, что и позволило построить
-            графики.
+            {t("wamIntroStart")}
+            <br/>
+            {t("wamIntroFinish")}
           </div>
+          <div className="button-container">
+            <button className="lang-button" aria-label="Switch language (en/ru)" title="Switch language (en/ru)" onClick={() => changeLanguage()}>
+              🌎
+            </button>
+          </div>
+
         </header>
         <main className="main-content">
           <div className="charts-block">
-            <div className="charts-names">Undertale вики</div>
+            <div className="charts-names">{t("undertale")}</div>
             <UndertaleChart/>
-            <div className="charts-names">Geometry Dash вики</div>
+            <div className="charts-names">{t("geometryDash")}</div>
             <GeometryDashChart/>
-            <div className="charts-names">Steven Universe вики</div>
+            <div className="charts-names">{t("stevenUniverse")}</div>
             <StevenUniverseChart/>
-            <div className="charts-names">The Battle Cats вики</div>
+            <div className="charts-names">{t("battleCats")}</div>
             <BattleCatsChart/>
           </div>
         </main>
