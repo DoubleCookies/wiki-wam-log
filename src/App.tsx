@@ -22,19 +22,16 @@ function App() {
       <header className="app-header">
         <div className="left-title">
           Wiki WAM Log<br/>༼ つ ◕_◕ ༽つ
+          <button className="lang-button" aria-label="Switch language (en/ru)" title="Switch language (en/ru)"
+                  onClick={() => changeLanguage()}>
+            🌎
+          </button>
         </div>
         <div className="right-title">
           {t("wamIntroStart")}
           <br/>
           {t("wamIntroFinish")}
         </div>
-        <div className="button-container">
-          <button className="lang-button" aria-label="Switch language (en/ru)" title="Switch language (en/ru)"
-                  onClick={() => changeLanguage()}>
-            🌎
-          </button>
-        </div>
-
       </header>
       <main className="main-content">
         <div className="charts-block">

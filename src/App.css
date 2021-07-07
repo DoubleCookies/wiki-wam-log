@@ -20,7 +20,7 @@
 }
 
 .left-title {
-    flex-basis: 25%;
+    flex-basis: 28%;
 
     margin-top: auto;
     margin-bottom: auto;
@@ -31,16 +31,12 @@
 }
 
 .right-title {
-    flex-basis: 65%;
+    flex-basis: 68%;
 
     margin-left: 20px;
 
     font-size: calc(12px + 1vmin);
     text-align: justify;
-}
-
-.button-container {
-    flex-basis: 10%;
 }
 
 .lang-button {
