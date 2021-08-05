@@ -5,15 +5,15 @@
     "main.js.map": "/wiki-wam-log/static/js/main.6dd95318.chunk.js.map",
     "runtime-main.js": "/wiki-wam-log/static/js/runtime-main.25dce849.js",
     "runtime-main.js.map": "/wiki-wam-log/static/js/runtime-main.25dce849.js.map",
-    "static/js/2.5cc618c2.chunk.js": "/wiki-wam-log/static/js/2.5cc618c2.chunk.js",
-    "static/js/2.5cc618c2.chunk.js.map": "/wiki-wam-log/static/js/2.5cc618c2.chunk.js.map",
+    "static/js/2.1a3f923b.chunk.js": "/wiki-wam-log/static/js/2.1a3f923b.chunk.js",
+    "static/js/2.1a3f923b.chunk.js.map": "/wiki-wam-log/static/js/2.1a3f923b.chunk.js.map",
     "index.html": "/wiki-wam-log/index.html",
     "static/css/main.6dc76f6d.chunk.css.map": "/wiki-wam-log/static/css/main.6dc76f6d.chunk.css.map",
-    "static/js/2.5cc618c2.chunk.js.LICENSE.txt": "/wiki-wam-log/static/js/2.5cc618c2.chunk.js.LICENSE.txt"
+    "static/js/2.1a3f923b.chunk.js.LICENSE.txt": "/wiki-wam-log/static/js/2.1a3f923b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25dce849.js",
-    "static/js/2.5cc618c2.chunk.js",
+    "static/js/2.1a3f923b.chunk.js",
     "static/css/main.6dc76f6d.chunk.css",
     "static/js/main.6dd95318.chunk.js"
   ]
