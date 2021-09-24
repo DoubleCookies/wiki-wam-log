@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/wiki-wam-log/static/css/main.6dc76f6d.chunk.css",
-    "main.js": "/wiki-wam-log/static/js/main.705a99b2.chunk.js",
-    "main.js.map": "/wiki-wam-log/static/js/main.705a99b2.chunk.js.map",
-    "runtime-main.js": "/wiki-wam-log/static/js/runtime-main.10375bbd.js",
-    "runtime-main.js.map": "/wiki-wam-log/static/js/runtime-main.10375bbd.js.map",
-    "static/js/2.0f52b988.chunk.js": "/wiki-wam-log/static/js/2.0f52b988.chunk.js",
-    "static/js/2.0f52b988.chunk.js.map": "/wiki-wam-log/static/js/2.0f52b988.chunk.js.map",
+    "main.js": "/wiki-wam-log/static/js/main.db60183c.chunk.js",
+    "main.js.map": "/wiki-wam-log/static/js/main.db60183c.chunk.js.map",
+    "runtime-main.js": "/wiki-wam-log/static/js/runtime-main.779c9d64.js",
+    "runtime-main.js.map": "/wiki-wam-log/static/js/runtime-main.779c9d64.js.map",
+    "static/js/2.8a760b4f.chunk.js": "/wiki-wam-log/static/js/2.8a760b4f.chunk.js",
+    "static/js/2.8a760b4f.chunk.js.map": "/wiki-wam-log/static/js/2.8a760b4f.chunk.js.map",
     "index.html": "/wiki-wam-log/index.html",
     "static/css/main.6dc76f6d.chunk.css.map": "/wiki-wam-log/static/css/main.6dc76f6d.chunk.css.map",
-    "static/js/2.0f52b988.chunk.js.LICENSE.txt": "/wiki-wam-log/static/js/2.0f52b988.chunk.js.LICENSE.txt"
+    "static/js/2.8a760b4f.chunk.js.LICENSE.txt": "/wiki-wam-log/static/js/2.8a760b4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.10375bbd.js",
-    "static/js/2.0f52b988.chunk.js",
+    "static/js/runtime-main.779c9d64.js",
+    "static/js/2.8a760b4f.chunk.js",
     "static/css/main.6dc76f6d.chunk.css",
-    "static/js/main.705a99b2.chunk.js"
+    "static/js/main.db60183c.chunk.js"
   ]
 }
