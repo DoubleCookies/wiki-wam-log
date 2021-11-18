@@ -6,6 +6,7 @@ import GeometryDashChart from "./charts/GeometryDashChart";
 import StevenUniverseChart from "./charts/StevenUniverseChart";
 import { useTranslation } from "react-i18next";
 import i18n from "./i18n";
+import GithubIcon from "./GithubIcon";
 
 function App() {
   const { t } = useTranslation(['translation']);
@@ -27,13 +28,13 @@ function App() {
             🌎
           </button>
         </div>
-        <div className="right-title">
+      </header>
+      <main className="main-content">
+        <div className="description">
           {t("wamIntroStart")}
           <br/>
           {t("wamIntroFinish")}
         </div>
-      </header>
-      <main className="main-content">
         <div className="charts-block">
           <div className="charts-names">{t("undertale")}</div>
           <UndertaleChart/>
@@ -46,6 +47,9 @@ function App() {
         </div>
       </main>
       <footer className="footer-block">
+        <div>
+          <GithubIcon />
+        </div>
         <div>2021 <span role="img" aria-label="cookieEmoji">🍪</span></div>
       </footer>
     </div>

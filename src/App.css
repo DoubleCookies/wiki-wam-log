@@ -10,7 +10,7 @@
 .app-header {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
 
     padding-top: 16px;
     padding-bottom: 16px;
@@ -20,8 +20,6 @@
 }
 
 .left-title {
-    flex-basis: 28%;
-
     margin-top: auto;
     margin-bottom: auto;
     min-width: 280px;
@@ -30,10 +28,8 @@
     font-size: calc(14px + 3vmin);
 }
 
-.right-title {
-    flex-basis: 68%;
-
-    margin-left: 20px;
+.description {
+    margin-top: 10px;
 
     font-size: calc(12px + 1vmin);
     text-align: justify;
@@ -89,4 +85,14 @@
     color: #504a4a;
     font-family: 'Balsamiq Sans', sans-serif;
     font-size: 14px;
+}
+
+.gh-logo {
+    fill: #828282;
+    transition: 0.2s;
+}
+
+.gh-logo:hover {
+    fill: #504a4a;
+    transition: 0.2s;
 }
