@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/wiki-wam-log/static/css/main.6895c481.css",
-    "main.js": "/wiki-wam-log/static/js/main.a81bcad1.js",
+    "main.css": "/wiki-wam-log/static/css/main.67fdce8f.css",
+    "main.js": "/wiki-wam-log/static/js/main.c5ec01e9.js",
     "index.html": "/wiki-wam-log/index.html",
-    "main.6895c481.css.map": "/wiki-wam-log/static/css/main.6895c481.css.map",
-    "main.a81bcad1.js.map": "/wiki-wam-log/static/js/main.a81bcad1.js.map"
+    "main.67fdce8f.css.map": "/wiki-wam-log/static/css/main.67fdce8f.css.map",
+    "main.c5ec01e9.js.map": "/wiki-wam-log/static/js/main.c5ec01e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.6895c481.css",
-    "static/js/main.a81bcad1.js"
+    "static/css/main.67fdce8f.css",
+    "static/js/main.c5ec01e9.js"
   ]
 }
