@@ -60,12 +60,6 @@
     line-height: 1.5;
 }
 
-.main-text {
-    margin-top: 10px;
-
-    font-size: calc(10px + 1vmin);
-}
-
 .charts-block {
     margin-top: 10px;
     margin-bottom: 10px;
