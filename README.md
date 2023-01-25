@@ -7,6 +7,8 @@ In 2021 WAM was removed from FANDOM but old data still exists.
 
 Created with [create-react-app](https://github.com/facebook/create-react-app) and [recharts](https://recharts.org).
 
+Project archived and moved to *[main page repo](https://github.com/DoubleCookies/DoubleCookies.github.io)*.
+
 ## Launch
 In root folder you should type
 - `yarn install` (for installing packages)
